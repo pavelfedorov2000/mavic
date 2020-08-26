@@ -11,9 +11,8 @@ $(function(){
         $('.questions__item--active').removeClass('questions__item--active');
         $(this).parent().addClass('questions__item--active');
     });
-});
-
-window.addEventListener('DOMContentLoaded', function() {
+    
+    // Mobile-menu
     let hamburger = document.querySelector('.hamburger-menu'),
         mobileMenu = document.querySelector('.menu');
 
